@@ -1,0 +1,124 @@
+/* ? Start Globel */
+:root {
+ --main-color:#0c5d69;
+ --seconder-color:#13a2b7;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+    padding-bottom: 500px;
+}
+ul {
+ list-style: none;
+}
+/* ? End Globel */
+
+/* ? Start General Set For All The Website */
+.container {
+padding-left:10%;
+padding-right: 10%;
+}
+
+/* ? End General Set For All The Website */
+
+
+/* ? Start comunication */
+.comunication {
+background-color: var(--main-color);
+height: 48px;
+width: 100%;
+}
+.comunication .container {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* ? Start Left Side */
+.comunication .container .left {
+    position: relative;
+    display: flex;
+    height: 48px;
+}
+.comunication .container .left > div {
+    padding-right: 20px;
+    margin: auto;
+}
+.comunication .container .left > div i {
+    color: white;
+    font-size: 12px;
+    padding: 5px;
+}
+.comunication .container .left > div span {
+    color: white;
+    font-size: 13px;
+}
+/* ? End Left Side */
+
+/* ? Start Right Side */
+.comunication .container .right {
+    display: flex;
+    height: 48px;
+}
+.comunication .container .right i {
+    margin: auto;
+    padding-left: 20px;
+    align-items: center;
+    color: white;
+    font-size: 16px;
+}
+
+/* ? End Right Side */
+
+/* ? End comunication */
+
+
+/* ? Start Navbar */
+.navbar {
+    height: 108px;
+}
+.navbar .container {
+    display: flex;
+    height: 108px;
+}
+.navbar .container .logo {
+    margin: auto auto auto 0;
+    width: 160px;
+}
+.navbar .container .logo img {
+    width: 130px;
+}
+.navbar .container .link {
+    margin: auto;
+}
+.navbar .container .link ul {
+    display: flex;
+    justify-content: space-between;
+}
+.navbar .container .link ul li {
+    margin: 0 15px;
+}
+.navbar .container .link ul li:hover {
+    border-bottom: 2px solid var(--seconder-color);
+}
+.navbar .container .link ul li.active {
+    border-bottom: 2px solid var(--seconder-color);
+}
+.navbar .container .link ul li.border {
+    border: 1px solid var(--seconder-color);
+    
+}
+
+
+
+
+/* ? End Navbar */
